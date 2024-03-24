@@ -1,4 +1,4 @@
- // SPDX-License-Identifier: MIT 
+// SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.24;
 // This smart contract implements an Attack targeting CoinFlip.sol from Ethernaut
 //import the original smart-contact
