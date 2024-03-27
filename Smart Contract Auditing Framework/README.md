@@ -62,7 +62,6 @@ The categories that are being used on this framework are the following:
 | 3.6 | Access Control mechanisms have been tested in various scenarios to adapt the new thread models | Yes/No | High |
 | 3.7 | Multisignature wallets or similar schemes are used for protecting Access Control and restrict unauthorized acts | Yes/No/Not Applicable | Medium |
 | 3.8 | Information Systems of the company as well as systems such as git are using only identifiable usernames | Yes/No | High |
-| **Upgrades and Vulnerability Patches** |
 | **Upgrades and Vulnerability Patches** | | | |
 | 4.1 | There is a clear and transparent governance process for proposing and implementing changes to the smart contract | Yes/No/Not Applicable | Medium |
 | 4.2 | Upgrades to new versions are handled securely | Yes/No | High |
