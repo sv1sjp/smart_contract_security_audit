@@ -1,7 +1,7 @@
 For my Master thesis **Security in Decentralized Finance: Smart Contract Securit**,in MSc Blockchain and Digital Currency in University Of Nicosia, due to the impracticality of including entire smart contracts and Defi applications within the master thesis, which are of extensive length, a GitHub repository has been created to host all materials related to this master thesis, including:
-•	Vulnerable Smart Contracts that have been created specifically for this master thesis,
-•	Attacking smart contracts have been developed to conduct attacks, completing challenges mentioned on this master thesis.
-•	The Smart Contract Auditing framework that has been designed on this master thesis.
+* Vulnerable Smart Contracts that have been created specifically for this master thesis,
+*	Attacking smart contracts have been developed to conduct attacks, completing challenges mentioned on this master thesis.
+* The Smart Contract Auditing framework that has been designed on this master thesis.
 In all common attacking vulnerability scenarios or the discusses interfaces, each smart contract is linked on GitHub for an easier navigation.
 
 
