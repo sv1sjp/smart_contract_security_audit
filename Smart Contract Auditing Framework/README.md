@@ -1,10 +1,17 @@
 This Smart Contract Security and Maturity Assessment Framework is designed to bridge the gap between the traditional information security standards and the unique challenges presented in the Blockchain World. Thus, being inspired by established standards such as ISO 27001, NIST and even Hellenic’s Republic Cybersecurity Self-Assessment Tool, this framework adapts and extends the industry’s best practices to meet the specific needs of smart contracts and Defi platforms.
+
 Αs we have realized, from the above detail explanations from the common vulnerabilities, analysis, in the rapidly evolving world of Decentralized Finance, and most especially the security and integrity of smart contracts are of high importance.
 The framework follows the structure of Smart Contract Security Verification Standard however it places greater emphasis on promoting transparency and strong business logic on the smart contract, including controls for event logs, monitoring, incident response and how the governance is structured in smart contracts or Defi platforms.
-This framework is structured around 11 key categories representing the lifecycle and operational aspects of smart contracts, extending to entire Defi platforms and companies that are supporting them. The main aspect of this framework is to establish trust and transparency in smart contracts by including policies, procedures, data flows, charts and all elements explaining the operation and governance of smart contracts. Subsequently, it prioritizes the security of code under development and maintenance, focusing on upgrades and vulnerability patch management. As Defi platforms practically consist of multiple intercommunicating smart contracts, the controls are trying to describe multiple concepts. For this reason, the final controls in this framework specifically address Defi platforms or multiple smart contracts, as well as about how the developers of the smart contract, monitoring, managing risk and the design of incident response plans for potential issues.
+
+This framework is structured around 11 key categories representing the lifecycle and operational aspects of smart contracts, extending to entire Defi platforms and companies that are supporting them. The main aspect of this framework is to establish trust and transparency in smart contracts by including policies, procedures, data flows, charts and all elements explaining the operation and governance of smart contracts. Subsequently, it prioritizes the security of code under development and maintenance, focusing on upgrades and vulnerability patch management. As Defi platforms practically consist of multiple intercommunicating smart contracts, the controls are trying to describe multiple concepts. 
+For this reason, the final controls in this framework specifically address Defi platforms or multiple smart contracts, as well as about how the developers of the smart contract, monitoring, managing risk and the design of incident response plans for potential issues.
+
 Therefore, many controls are not applicable to all circumstances. The more critical the smart contracts being developed is, the more critical measures must be implemented in order to promote transparency and enhanced security. 
 Controls that must be applied in any circumstances are indicated in the “Implementation Status” with only the options of Yes/No.
-Criticality levels are determined based on the potential impact of a control’s failure on the security and operation of a smart contract. Factors include the likelihood of exploitation, the potential for financial loss, and the impact on user and stakeholder’s trust. However, considering the immutable nature of Blockchain Networks and smart contracts, changes are more challenging than in the traditional information systems. Consequently, in reality, the criticality is significantly higher for all levels than in conventional systems.
+
+Criticality levels are determined based on the potential impact of a control’s failure on the security and operation of a smart contract. Factors include the likelihood of exploitation, the potential for financial loss, and the impact on user and stakeholder’s trust. 
+
+However, considering the immutable nature of Blockchain Networks and smart contracts, changes are more challenging than in the traditional information systems. Consequently, in reality, the criticality is significantly higher for all levels than in conventional systems.
 The categories that are being used on this framework are the following:
 1.	Policies, Procedures and Documentation: These controls establish security and ensure transparency in terms of governance,
 2.	Smart Contract Development: These controls focus on secure coding practices, peer reviews and auditing processes (formally or internally) to minimize vulnerabilities in smart contracts deployed in production (public or private Blockchains),
@@ -56,3 +63,54 @@ The categories that are being used on this framework are the following:
 | 3.7 | Multisignature wallets or similar schemes are used for protecting Access Control and restrict unauthorized acts | Yes/No/Not Applicable | Medium |
 | 3.8 | Information Systems of the company as well as systems such as git are using only identifiable usernames | Yes/No | High |
 | **Upgrades and Vulnerability Patches** |
+| **Upgrades and Vulnerability Patches** | | | |
+| 4.1 | There is a clear and transparent governance process for proposing and implementing changes to the smart contract | Yes/No/Not Applicable | Medium |
+| 4.2 | Upgrades to new versions are handled securely | Yes/No | High |
+| 4.3 | Before upgrading to the main product, upgrade has been tested in testnets to identify any unintentional anomaly after the upgrade | Yes/No | Critical |
+| 4.4 | Upgrades are being audited and are trying to follow the logic that has been recorded on the corresponding documents | Yes/No | Medium |
+| 4.5 | In case of critical upgrades which change mainly the architectural design of the smart contract, the chart is being redesigned to follow the new implementation | Yes/No/Not Applicable | Medium |
+| 4.6 | Changes in the code are being recorded by a system such as git to identify what and from whom the change has occurred | Yes/No/Not Applicable | Medium |
+| 4.7 | If upgradable proxies are used, the implementation follows best practices to prevent storage collisions and ensure upgrade safety | Yes/No/Not Applicable | Medium |
+| 4.8 | The company is performing Penetration Tests every 6 months by reputable firms on its infrastructure to secure the development process of its smart contracts and its keys | Yes/No | High |
+| **Security Awareness and Training** | | | |
+| 5.1 | Mandatory periodic security training sessions for all developers focusing on the latest security practices, vulnerability trends, and mitigation techniques. Is being executed annually | Yes/No | High |
+| 5.2 | The developers are being advised from platforms such as SWF to avoid common insecure development approaches | Yes/No | High |
+| 5.3 | The developers are utilizing cyber intelligent tools to be informed about the latest cybersecurity news | Yes/No | Low |
+| **Cryptography, Privacy, and Randomness** | | | |
+| 6.1 | The smart contract briefly explains the cryptographic schemes that are being used | Yes/No/Not Applicable | High |
+| 6.2 | The company implements policies and procedures related to cryptography for both on-chain and off-chain operations | Yes/No | High |
+| 6.3 | Cryptographic functions used in the smart contract are well-established and considered secure | Yes/No/Not Applicable | Critical |
+| 6.4 | The smart contract does not store any confidential personal or sensitive information on-chain | Yes/No/Not Applicable | Critical |
+| 6.5 | Data privacy measures (e.g., zero-knowledge proofs, off-chain storage with encryption) are implemented for private transactions | Yes/No/Not Applicable | Medium |
+| 6.6 | The smart contract, in order to achieve true randomness, it uses external verified and tested Oracles | Yes/No/Not Applicable | High |
+| **Compliance and Legal** | | | |
+| 6.7 | The smart contract complies with the relevant legal and regulatory requirements | Yes/No | High |
+| 6.8 | Smart contract operations are compliant with data protection regulations (e.g., GDPR) | Yes/No | High |
+| 6.9 | The smart contract has been certified by companies such as EEA, Ethtrust | Yes/No/Not Applicable | Low |
+| 6.10 | The documentation and the smart contract inform the users about the potential risks of its usage | Yes/No | High |
+| **Risk Assessment** | | | |
+| 7.1 | The company implements a Risk Management and Risk Treatment Policy | Yes/No | High |
+| 7.2 | The developers of a smart contract are conducting regular Risk Assessments on smart contracts Functions | Yes/No | High |
+| 7.3 | The developers analyze the risks associated with calling external smart contracts or oracles | Yes/No/Not Applicable | High |
+| 7.4 | The Residual Risks are documented and communicated | Yes/No/Not Applicable | High |
+| **Monitoring** | | | |
+| 8.1 | The company implements an Event Logging Policy | Yes/No | High |
+| 8.2 | The smart contract uses event calls to create logs | Yes/No | Critical |
+| 8.3 | The company utilizes specialized monitoring tools to identify any anomalies and common patterns | Yes/No/Not Applicable | High |
+| 8.4 | The company utilizes a SOC to monitor 24/7 the behavior of the smart contract | Yes/No/Not Applicable | Medium |
+| **Incident Response and Recovery** | | | |
+| 9.1 | There is a predefined incident response plan for security breaches, security bugs, or other potential incidents that may occur | Yes/No
+| 9.1 | There is a predefined incident response plan for security breaches, security bugs, or other potential incidents that may occur | Yes/No/Not Applicable | High |
+| 9.2 | The company has assigned responsibilities to certain persons in relation to the implementation of the incident response plans | Yes/No/Not Applicable | High |
+| 9.3 | The smart contract provides mechanisms for funds recovery in case of theft or loss, such as time locking | Yes/No/Not Applicable | High |
+| 9.4 | Smart Contracts are being covered with insurance to protect against security risks | Yes/No/Not Applicable | High |
+| **Financial Security** | | | |
+| 10.1 | The smart contract offers mechanisms to prevent economic attacks such as flash loan attacks | Yes/No/Not Applicable | High |
+| 10.2 | Security mechanisms in the DeFi platform are well documented to provide further security and transparency | | |
+| 10.3 | Mechanisms are in place to manage liquidity risks, including automated liquidity monitoring | Yes/No/Not Applicable | High |
+| 10.4 | Mechanisms are in place to avoid smart contracts assumptions (e.g., user’s balance repayments) that can be used in attacks | Yes/No/Not Applicable | High |
+| 10.5 | Collateralization ratios are regularly reviewed and adjusted based on market conditions | Yes/No/Not Applicable | High |
+| 10.6 | Price oracles are resistant to manipulation using multiple sources and time-weighted averages | Yes/No/Not Applicable | Critical |
+| 10.7 | Oracle failure or manipulation fallback procedures are documented and tested | Yes/No/Not Applicable | Critical |
+
+
