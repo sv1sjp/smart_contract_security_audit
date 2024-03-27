@@ -36,19 +36,19 @@ The categories that are being used on this framework are the following:
 | 1.6 | The smart contract is set to be deployed on a reputable Blockchain Network | Yes/No/Not Applicable | Critical |
 | **Smart Contract Development** | | | |
 | 2.1 | The smart contract code is open-source and has been peer-reviewed | Yes/No/Not Applicable | High |
-| 2.2 | The smart contract has been audited before goes to production | Yes/No | Critical |
+| 2.2 | The smart contract has been audited before goes to production (e.g. deployed on a Blockchain) | Yes/No | Critical |
 | 2.3 | The smart contract has been audited by an independent third-party security firm the last 6 months | Yes/No/Not Applicable | High |
 | 2.4 | The Selected auditing firms are based on their expertise in blockchain technology, past audit reports, reputation in the industry, and contributions to security research | Yes/No/Not Applicable | High |
 | 2.5 | Dependencies on external smart contracts or libraries have been minimized | Yes/No | High |
 | 2.6 | The external smart contacts or libraries are regularly audited by a reputable security firm at least every 6 months | Yes/No | High |
 | 2.7 | Functions and variables are named clearly and follow consistent naming conventions | Yes/No | High |
-| 2.8 | Static analysis tools are used to identify common vulnerabilities | Yes/No | Critical |
-| 2.9 | Known anti-patterns and bad practices are avoided | Yes/No | Critical |
+| 2.8 | Static analysis tools are used to identify common vulnerabilities (e.g., reentrancy, overflow/underflow etc.) | Yes/No | Critical |
+| 2.9 | Known anti-patterns and bad practices (e.g., reliance on tx.origin) are avoided | Yes/No | Critical |
 | 2.10 | Dynamic analysis has performed to uncover unexpected behavior | Yes/No | Critical |
 | 2.11 | All identified issues from dynamic analysis have been addressed | Yes/No | Critical |
-| 2.12 | Fuzzing campaigns are conducted regularly with custom fuzzers | Yes/No | Critical |
+| 2.12 | Fuzzing campaigns are conducted regularly, with custom fuzzers designed to generate inputs that target the specific logic of the smart contracts | Yes/No | Critical |
 | 2.13 | Comprehensive unit and integration tests are conducted covering all critical paths | Yes/No | Critical |
-| 2.14 | Reputable frameworks related on secure by design developing of smart contracts are used | Yes/No | High |
+| 2.14 | Reputable frameworks related on secure by design developing of smart contracts are used (e.g. Smart Contract Security Verification Standard (SCSVS) to further check compliance in following industry’s best practice | Yes/No | High |
 | 2.15 | Unused dependencies and outdated code are removed from the codebase | Yes/No | High |
 | 2.16 | The smart contract utilizes audited smart contracts such as OpenZeppelin’s Safemath to prevent overflow and underflow attacks | Yes/No/Not Applicable | High |
 | 2.17 | Functions vulnerable to reentrancy attacks are protected with modifiers or audited smart contracts such as OpenZeppelin’s Reentrancy Guard | Yes/No/Not Applicable | High |
@@ -63,7 +63,7 @@ The categories that are being used on this framework are the following:
 | 3.7 | Multisignature wallets or similar schemes are used for protecting Access Control and restrict unauthorized acts | Yes/No/Not Applicable | Medium |
 | 3.8 | Information Systems of the company as well as systems such as git are using only identifiable usernames | Yes/No | High |
 | **Upgrades and Vulnerability Patches** | | | |
-| 4.1 | There is a clear and transparent governance process for proposing and implementing changes to the smart contract | Yes/No/Not Applicable | Medium |
+| 4.1 | There is a clear and transparent governance process for proposing and implementing changes to the smart contract (e.g. a Vulnerability Patch Management Policy) | Yes/No/Not Applicable | Medium |
 | 4.2 | Upgrades to new versions are handled securely | Yes/No | High |
 | 4.3 | Before upgrading to the main product, upgrade has been tested in testnets to identify any unintentional anomaly after the upgrade | Yes/No | Critical |
 | 4.4 | Upgrades are being audited and are trying to follow the logic that has been recorded on the corresponding documents | Yes/No | Medium |
@@ -83,33 +83,32 @@ The categories that are being used on this framework are the following:
 | 6.5 | Data privacy measures (e.g., zero-knowledge proofs, off-chain storage with encryption) are implemented for private transactions | Yes/No/Not Applicable | Medium |
 | 6.6 | The smart contract, in order to achieve true randomness, it uses external verified and tested Oracles | Yes/No/Not Applicable | High |
 | **Compliance and Legal** | | | |
-| 6.7 | The smart contract complies with the relevant legal and regulatory requirements | Yes/No | High |
-| 6.8 | Smart contract operations are compliant with data protection regulations (e.g., GDPR) | Yes/No | High |
-| 6.9 | The smart contract has been certified by companies such as EEA, Ethtrust | Yes/No/Not Applicable | Low |
-| 6.10 | The documentation and the smart contract inform the users about the potential risks of its usage | Yes/No | High |
+| 7.1 | The smart contract complies with the relevant legal and regulatory requirements(e.g., GDPR) | Yes/No | High |
+| 7.2 | Smart contract operations are compliant with data protection regulations (e.g., GDPR) | Yes/No | High |
+| 7.3 | The smart contract has been certified by companies such as EEA, Ethtrust | Yes/No/Not Applicable | Low |
+| 7.4 | The documentation and the smart contract inform the users about the potential risks of its usage | Yes/No | High |
 | **Risk Assessment** | | | |
-| 7.1 | The company implements a Risk Management and Risk Treatment Policy | Yes/No | High |
-| 7.2 | The developers of a smart contract are conducting regular Risk Assessments on smart contracts Functions | Yes/No | High |
-| 7.3 | The developers analyze the risks associated with calling external smart contracts or oracles | Yes/No/Not Applicable | High |
-| 7.4 | The Residual Risks are documented and communicated | Yes/No/Not Applicable | High |
+| 8.1 | The company implements a Risk Management and Risk Treatment Policy | Yes/No | High |
+| 8.2 | The developers of a smart contract are conducting regular Risk Assessments on smart contracts Functions | Yes/No | High |
+| 8.3 | The developers analyze the risks associated with calling external smart contracts or oracles | Yes/No/Not Applicable | High |
+| 8.4 | The Residual Risks are documented and communicated | Yes/No/Not Applicable | High |
 | **Monitoring** | | | |
-| 8.1 | The company implements an Event Logging Policy | Yes/No | High |
-| 8.2 | The smart contract uses event calls to create logs | Yes/No | Critical |
-| 8.3 | The company utilizes specialized monitoring tools to identify any anomalies and common patterns | Yes/No/Not Applicable | High |
-| 8.4 | The company utilizes a SOC to monitor 24/7 the behavior of the smart contract | Yes/No/Not Applicable | Medium |
+| 9.1 | The company implements an Event Logging Policy | Yes/No | High |
+| 9.2 | The smart contract uses event calls to create logs | Yes/No | Critical |
+| 9.3 | The company utilizes specialized monitoring tools to identify any anomalies and common patterns | Yes/No/Not Applicable | High |
+| 9.4 | The company utilizes a SOC to monitor 24/7 the behavior of the smart contract | Yes/No/Not Applicable | Medium |
 | **Incident Response and Recovery** | | | |
-| 9.1 | There is a predefined incident response plan for security breaches, security bugs, or other potential incidents that may occur | Yes/No
-| 9.1 | There is a predefined incident response plan for security breaches, security bugs, or other potential incidents that may occur | Yes/No/Not Applicable | High |
-| 9.2 | The company has assigned responsibilities to certain persons in relation to the implementation of the incident response plans | Yes/No/Not Applicable | High |
-| 9.3 | The smart contract provides mechanisms for funds recovery in case of theft or loss, such as time locking | Yes/No/Not Applicable | High |
-| 9.4 | Smart Contracts are being covered with insurance to protect against security risks | Yes/No/Not Applicable | High |
+| 10.1 | There is a predefined incident response plan for security breaches, security bugs, or other potential incidents that may occur | Yes/No/Not Applicable | High |
+| 10.2 | The company has assigned responsibilities to certain persons in relation to the implementation of the incident response plans | Yes/No/Not Applicable | High |
+| 10.3 | The smart contract provides mechanisms for funds recovery in case of theft or loss, such as time locking | Yes/No/Not Applicable | High |
+| 10.4 | Smart Contracts are being covered with insurance to protect against security risks | Yes/No/Not Applicable | High |
 | **Financial Security** | | | |
-| 10.1 | The smart contract offers mechanisms to prevent economic attacks such as flash loan attacks | Yes/No/Not Applicable | High |
-| 10.2 | Security mechanisms in the DeFi platform are well documented to provide further security and transparency | | |
-| 10.3 | Mechanisms are in place to manage liquidity risks, including automated liquidity monitoring | Yes/No/Not Applicable | High |
-| 10.4 | Mechanisms are in place to avoid smart contracts assumptions (e.g., user’s balance repayments) that can be used in attacks | Yes/No/Not Applicable | High |
-| 10.5 | Collateralization ratios are regularly reviewed and adjusted based on market conditions | Yes/No/Not Applicable | High |
-| 10.6 | Price oracles are resistant to manipulation using multiple sources and time-weighted averages | Yes/No/Not Applicable | Critical |
-| 10.7 | Oracle failure or manipulation fallback procedures are documented and tested | Yes/No/Not Applicable | Critical |
+| 11.1 | The smart contract offers mechanisms to prevent economic attacks such as flash loan attacks | Yes/No/Not Applicable | High |
+| 11.2 | Security mechanisms in the DeFi platform are well documented to provide further security and transparency | | |
+| 11.3 | Mechanisms are in place to manage liquidity risks, including automated liquidity monitoring | Yes/No/Not Applicable | High |
+| 11.4 | Mechanisms are in place to avoid smart contracts assumptions (e.g., user’s balance repayments) that can be used in attacks | Yes/No/Not Applicable | High |
+| 11.5 | Collateralization ratios are regularly reviewed and adjusted based on market conditions | Yes/No/Not Applicable | High |
+| 11.6 | Price oracles are resistant to manipulation using multiple sources and time-weighted averages | Yes/No/Not Applicable | Critical |
+| 11.7 | Oracle failure or manipulation fallback procedures are documented and tested | Yes/No/Not Applicable | Critical |
 
 
