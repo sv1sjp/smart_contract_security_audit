@@ -1,6 +1,6 @@
 # 🚀 Smart Contract Security Audit Repository
 
-Welcome to the repository for my Master Thesis **Security in Decentralized Finance: Smart Contract Security**. This repository has been created as part of my MSc in Blockchain and Digital Currency at the University Of Nicosia.
+Welcome to the repository for my Master Thesis **Security in Decentralized Finance: Smart Contract Security**. This repository has been created as part of my MSc in Blockchain and Digital Currency at the University Of Nicosia 🇨🇾🇪🇺.
 
 Due to the extensive length of smart contracts and DeFi applications analyzed in this master thesis, it's impractical to include them all within the Master Thesis. Therefore, this GitHub repository hosts all related materials, including:
 
@@ -25,7 +25,7 @@ To enhance the understanding of Blockchain and Smart Contract Security among Gre
 
 ## 📺 Episode List
 
-1. 🌐 Creating a Testnet Wallet with Metamask
+1. [![🌐 Creating a Testnet Wallet with Metamask](https://www.youtube.com/watch?v=kmlhkMLF8yk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7)
 2. 🛠️ An Introduction to Remix – Ethereum IDE
 3. 👋 Creating a Basic Solidity Hello World Smart Contract
 4. ⚔️ War Of Array
