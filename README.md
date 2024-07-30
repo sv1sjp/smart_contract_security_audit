@@ -6,7 +6,7 @@ Due to the extensive length of smart contracts and DeFi applications analyzed in
 
 - [🛡️ **Vulnerable Smart Contracts**](https://github.com/sv1sjp/smart_contract_security_audit/tree/main/Vulnerable%20Smart%20Contracts) created specifically for this Master Thesis,
 - [⚔️ **Attacking Smart Contracts**](https://github.com/sv1sjp/smart_contract_security_audit/tree/main/Attacking%20Smart%20Contracts) developed to conduct attacks, completing challenges mentioned in this Master Thesis,
-- [🔍 *Smart Contract Auditing Framework** designed and discussed in this Master Thesis](#control-categories)
+- [🔍 **Smart Contract Auditing Framework** designed and discussed in this Master Thesis](#control-categories)
 
 Each smart contract related to common attacking vulnerability scenarios or discussed interfaces is linked here for easier navigation.
 
