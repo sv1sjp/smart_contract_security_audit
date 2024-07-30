@@ -4,20 +4,11 @@ Welcome to the repository for my Master Thesis **Security in Decentralized Finan
 
 Due to the extensive length of smart contracts and DeFi applications analyzed in this master thesis, it's impractical to include them all within the Master Thesis. Therefore, this GitHub repository hosts all related materials, including:
 
-- 🛡️ **Vulnerable Smart Contracts** created specifically for this Master Thesis
-- ⚔️ **Attacking Smart Contracts** developed to conduct attacks, completing challenges mentioned in this Master Thesis
-- 🔍 **Smart Contract Auditing Framework** designed and discussed in this Master Thesis
+- [🛡️ **Vulnerable Smart Contracts**](https://github.com/sv1sjp/smart_contract_security_audit/tree/main/Vulnerable%20Smart%20Contracts) created specifically for this Master Thesis,
+- [⚔️ **Attacking Smart Contracts**](https://github.com/sv1sjp/smart_contract_security_audit/tree/main/Attacking%20Smart%20Contracts) developed to conduct attacks, completing challenges mentioned in this Master Thesis,
+- [🔍 *Smart Contract Auditing Framework** designed and discussed in this Master Thesis](#control-categories)
 
 Each smart contract related to common attacking vulnerability scenarios or discussed interfaces is linked here for easier navigation.
-
-## 📚 Table of Contents
-
-1. [Introduction](#introduction)
-2. [Security Awareness Video Series for the Hellenic Speaking Community](#security-awareness-video-series-for-the-hellenic-speaking-community)
-3. [Episode List](#episode-list)
-4. [Smart Contract Security and Maturity Assessment Framework](#smart-contract-security-and-maturity-assessment-framework)
-5. [Smart Contract Security Auditing Framework Controls](#control-categories)
-
 
 ## 🎥 Security Awareness Video Series for the Hellenic Speaking Community
 
@@ -25,50 +16,51 @@ To enhance the understanding of Blockchain and Smart Contract Security among Gre
 
 ## 📺 Episode List
 
-1 [![🌐 Creating a Testnet Wallet with Metamask](https://www.youtube.com/watch?v=kmlhkMLF8yk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7)
-2. 🛠️ An Introduction to Remix – Ethereum IDE
+1 [🌐 Creating a Testnet Wallet with Metamask](https://www.youtube.com/watch?v=kmlhkMLF8yk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7)
+2. [🛠️ An Introduction to Remix – Ethereum IDE](https://www.youtube.com/watch?v=1M8-MgI15U0&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=4)
 3. 👋 Creating a Basic Solidity Hello World Smart Contract
-4. ⚔️ War Of Array
-5. 💣 Fallout
-6. 🔑 Access Control (Simple Bridge)
-7. 🏦 Vault
-8. 🌪️ Force
-9. ⚠️ Tx.Origin vs msg.sender
-10. 📞 DelegateCall
-11. 🪙 Basic Vulnerable Token (University Token)
-12. 🔌 Remix IDE Extensions and Cookbook.dev
-13. 🔐 Creating a Secure ERC20 Token
-14. 🔒 Locked ERC20 Tokens with NaughtCoin
-15. 🛡️ Reentrancy Attacks
-16. 🐳 Ethereum Sec Toolbox Container Installation in Docker and Podman
-17. 🛠️ Static Analysis Tools - Slither
-18. 🤖 Using AI for Static Analysis
+4. [⚔️ War Of Array](https://www.youtube.com/watch?v=pPbfhA0sDtE&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=7)
+5. [🔄 Fallback](https://www.youtube.com/watch?v=nvjIQcDWQ_E&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=2)
+6.  [💣Fallout](https://www.youtube.com/watch?v=eY8u9NaJ0P0&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=3)
+7. 🔑 Access Control (Simple Bridge)
+8. [🏦 Vault](https://www.youtube.com/watch?v=hF3wttSw4M4&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=5)
+9. [🌪️ Force](https://www.youtube.com/watch?v=EL320kQ-1fk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=6)
+10. ⚠️ Tx.Origin vs msg.sender
+11. 📞 DelegateCall
+12. 🪙 Basic Vulnerable Token (University Token)
+13. 🔌 Remix IDE Extensions and Cookbook.dev
+14. [🔐 Creating a Secure ERC20 Token](https://www.youtube.com/watch?v=7c9GAQxlpu8&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=10)
+15. 🔒 Locked ERC20 Tokens with NaughtCoin
+16. 🛡️ Reentrancy Attacks
+17. 🐳 Ethereum Sec Toolbox Container Installation in Docker and Podman
+18. 🛠️ Static Analysis Tools - Slither
+19. 🤖 Using AI for Static Analysis
 
 These episodes will be uploaded regularly over the next few months and will be publicly accessible on both platforms.
 
 ## 🛠️ Smart Contract Security and Maturity Assessment Framework
 
-This Smart Contract Security and Maturity Assessment Framework is designed to bridge the gap between traditional information security standards and the unique challenges presented in the Blockchain World. Inspired by established standards such as ISO 27001, NIST, and the Hellenic Republic's Cybersecurity Self-Assessment Tool, this framework adapts and extends the industry’s best practices to meet the specific needs of smart contracts and DeFi platforms.
+This Smart Contract Security and Maturity Assessment Framework is designed to bridge the gap between traditional Information Security Standards and the unique challenges presented in the Blockchain World. Inspired by established standards such as ISO 27001, NIST, and the Hellenic Republic's Cybersecurity Self-Assessment Tool, this framework adapts and extends the industry’s best practices to meet the specific needs of smart contracts and DeFi platforms.
 
-In the rapidly evolving world of Decentralized Finance, the security and integrity of smart contracts are of paramount importance. This framework follows the structure of the Smart Contract Security Verification Standard, placing greater emphasis on promoting transparency and strong business logic, including controls for event logs, monitoring, incident response, and governance in smart contracts or DeFi platforms.
+In the rapidly evolving world of Decentralized Finance, the security and integrity of smart contracts is of high importance. This framework follows the structure of the Smart Contract Security Verification Standard, placing greater emphasis on promoting transparency and strong business logic, including controls for event logs, monitoring, incident response, and governance in Smart Contracts or DeFi platforms.
 
 ### 📋 Framework Structure
 
-This framework is structured around 11 key categories representing the lifecycle and operational aspects of smart contracts, extending to entire DeFi platforms and supporting companies. The main aim is to establish trust and transparency in smart contracts by including policies, procedures, data flows, charts, and elements explaining their operation and governance. The framework prioritizes the security of code under development and maintenance, focusing on upgrades and vulnerability patch management.
+This framework is structured around 11 key categories representing the lifecycle and operational aspects of Smart Contracts, extending to entire DeFi platforms and supporting companies. The main aim is to establish trust and transparency in smart contracts by including Policies, Procedures, Data Flows, Charts, and elements explaining their operation and governance. The framework prioritizes the security of code under development and maintenance, focusing also on Vulnerability and Patch Management.
 
 ## 🔑 Control Categories
 
-1. **Policies, Procedures, and Documentation**: Establishing security and ensuring transparency in governance.
-2. **Smart Contract Development**: Secure coding practices, peer reviews, and auditing processes.
-3. **Access Control and Authorization**: Ensuring authorized actions based on defined policies.
-4. **Upgrades and Vulnerability Patches**: Managing changes and improvements securely.
-5. **Security Awareness and Training**: Equipping developers with knowledge about new vulnerabilities and attacks.
-6. **Cryptography, Privacy, and Randomness**: Protecting data integrity and confidentiality.
-7. **Compliance and Legal**: Addressing regulatory requirements and legal considerations.
-8. **Risk Assessment**: Identifying and addressing potential vulnerabilities and threats.
-9. **Monitoring**: Continuously monitoring operations and transactions.
-10. **Incident Response and Recovery**: Preparing for and managing security incidents.
-11. **Financial Security**: Protecting against economic attacks and ensuring financial stability.
+1. **Policies, Procedures, and Documentation** 📄: Establishing security and ensuring transparency in governance.
+2. **Smart Contract Development** 💻: Secure coding practices, peer reviews, and auditing processes.
+3. **Access Control and Authorization** 🔑: Ensuring authorized actions based on defined policies.
+4. **Upgrades and Vulnerability Patches** 🔧: Managing changes and improvements securely.
+5. **Security Awareness and Training** 📚: Equipping developers with knowledge about new vulnerabilities and attacks.
+6. **Cryptography, Privacy, and Randomness** 🔒: Protecting data integrity and confidentiality.
+7. **Compliance and Legal** ⚖️: Addressing regulatory requirements and legal considerations.
+8. **Risk Assessment** ⚠️: Identifying and addressing potential vulnerabilities and threats.
+9. **Monitoring** 📊: Continuously monitoring operations and transactions.
+10. **Incident Response and Recovery** 🚨: Preparing for and managing security incidents.
+11. **Financial Security** 💰: Protecting against economic attacks and ensuring financial stability.
 
 ## 📝 Smart Contract Security Auditing Framework Controls
 
