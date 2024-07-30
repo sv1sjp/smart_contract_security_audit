@@ -16,7 +16,7 @@ To enhance the understanding of Blockchain and Smart Contract Security among Gre
 
 ## 📺 Episode List
 
-1 [🌐 Creating a Testnet Wallet with Metamask](https://www.youtube.com/watch?v=kmlhkMLF8yk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7)
+1. [🌐 Creating a Testnet Wallet with Metamask](https://www.youtube.com/watch?v=kmlhkMLF8yk&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7)
 2. [🛠️ An Introduction to Remix – Ethereum IDE](https://www.youtube.com/watch?v=1M8-MgI15U0&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=4)
 3. 👋 Creating a Basic Solidity Hello World Smart Contract
 4. [⚔️ War Of Array](https://www.youtube.com/watch?v=pPbfhA0sDtE&list=PLZa7COjIxKWzLcMxI9cRNSzOtdR0xvXB7&index=7)
